@@ -1,0 +1,76 @@
+.hero {
+  background-image: url("../../../assets/image/11.jpg");
+  width: 1920px;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  @font-face {
+    font-family: 'archangelsk-regular', sans-serif;
+    src: url("../../../assets/fonts/Archangelsk font.ttf");
+  }
+
+  header {
+    width: 1280px;
+    height: 74px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+
+    .left-header {
+      width: 296px;
+      height: 74px;
+      position: relative;
+
+      .right-img {
+        position: absolute;
+        right: 13.5px;
+        bottom: 9px;
+      }
+    }
+
+    .right-header {
+      width: 380px;
+      height: 30px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .available {
+    position: absolute;
+    right: 320px;
+    bottom: 0;
+    background-color: #F8F200;
+    width: 624px;
+    height: 369px;
+    clip-path: polygon(10% 0, 100% 1%, 100% 20%, 100% 80%, 90% 100%, 20% 100%, 0 100%, 0% 20%);
+
+    .available-text {
+      margin: 70px 70px 25px 70px;
+      p {
+        font-weight: 400;
+        font-size: 62px;
+        line-height: 63px;
+        margin: 0;
+      }
+    }
+
+    .black-box {
+      width: 250px;
+      height: 75px;
+      background-color: #000000;
+      position: absolute;
+      left: 70px;
+      color: #F8F200;
+      font-weight: 700;
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+
