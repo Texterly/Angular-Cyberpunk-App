@@ -1,0 +1,31 @@
+.second-block {
+  margin: 70px 0 0 320px;
+
+  .header {
+    font-weight: 400;
+    font-size: 62px;
+  }
+  .description {
+    margin: 25px 0 70px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #777777;
+    span {
+      font-weight: 700;
+      color: #52BEDC;
+    }
+  }
+  .second-block-img {
+    display: flex;
+    .second-block-l-img {
+      width: 460px;
+      height: 196px;
+      margin: 0 32px 32px 0;
+    }
+    .second-block-b-img {
+      width: 788px;
+      height: 424px;
+    }
+  }
+}
